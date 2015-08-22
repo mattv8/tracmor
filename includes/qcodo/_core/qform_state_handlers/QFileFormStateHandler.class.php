@@ -20,7 +20,7 @@
 		 *
 		 * @var string StatePath
 		 */
-		public static $StatePath = '/tmp';
+		public static $StatePath = __TRACMOR_TMP__;
 
 		/**
 		 * The filename prefix to be used by all FormState files
